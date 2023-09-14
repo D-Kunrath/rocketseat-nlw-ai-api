@@ -23,3 +23,15 @@ Content-Type: application/json
 {
   "prompt": "não consigo, ajuda"
 }
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+  "videoId": "7641258c-6bff-4322-89a6-ff2ce7ec3232",
+  "temperature": 0.5,
+  "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''"
+}
