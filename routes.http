@@ -15,3 +15,11 @@ Content-Type: audio/mpeg
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
 
 ###
+
+# @name create-transcription
+POST http://localhost:3333/videos/7641258c-6bff-4322-89a6-ff2ce7ec3232/transcription
+Content-Type: application/json
+
+{
+  "prompt": "não consigo, ajuda"
+}
